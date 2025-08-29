@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber</title>
+
+  <link rel="stylesheet" href="navbar.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+   </head>
+<body>
+  
+
+  <nav class="navbar bg-black navbar-expand">
+
+  <div class="container-fluid pe-0">
+
+<!--Nav bar head and items-->
+    <div class="d-flex align-items-center gap-4 ms-0 ms-lg-5 ">
+  <a class="navbar-brand text-white" href="#">Uber</a>
+
+        <a class="nav-link text-white d-none d-md-block" href="#">Home</a>
+        <a class="nav-link text-white d-none d-md-block" href="#">Ride</a>
+        <a class="nav-link text-white d-none d-md-block" href="#">Drive</a>
+        <a class="nav-link text-white d-none d-md-block" href="#">About</a>
+  
+    </div>
+
+
+    <!--Language and three line -->
+    <div class="d-flex align-items-center gap-4 me-0 me-lg-5">
+
+
+    <div class="d-flex align-items-center gap-3">
+
+<!--Language selector -->
+      <div class="language-wrapper rounded-pill d-flex align-items-center gap-1 text-white ps-2 pe-2">
+        
+        <img class="internet-globe" src="Icons/internet-globe.png">
+   <select class="language-selector bg-black text-white rounded-pill border-start-0 border-black">
+
+
+    <option class="language-options">ENG</option>
+    <option class="language-options">AR</option>
+    <option class="language-options">HN</option>
+    <option class="language-options">GER</option>
+          
+      </select>
+
+
+      </div>
+     
+      <div class="left-second-element language-button rounded-pill d-flex align-items-center gap-1 text-white border border-1 ps-2 pe-2">
+        <img class="internet-globe" src="Icons/internet-globe.png">ENG</div>
+   
+        
+<!--Three line menu-->        
+     <div class="three-line-menu position-relative">
+
+       <img class="three-line-img d-block d-lg-none position-absolute" src="Icons/three-line.png">
+
+
+       <select class="navigation-selector bg-transparent text-white rounded-pill border-start-0 border-black d-block d-lg-none">
+
+        <option value="" class="bg-black" ></option>
+        <option value="" class="bg-black">Home</option>
+        <option value="" class="bg-black">Ride</option>
+        <option value="" class="bg-black">Drive</option>
+        <option value="" class="bg-black">About</option>
+       </select>
+     </div>
+
+       
+    
+    </div>
+
+</div>
+</div>
+</nav>
+
+<!--Under nav part]-->
+
+<div class="second-main-container container-fluid">
+  
+  <div class="row h-100">
+    
+    <!--Ride section ( top left )-->
+    <div class="h-100 col-md-1 col-6 ps-4  d-flex align-items-center">
+
+  <h1 class="fw-bold fs-3 mb-0">Ride</h1>
+
+    </div>
+
+    <!--Options section ( top right )-->
+
+        <div class=" h-100 col-11 d-flex gap-5 align-items-center justify-content-end pe-4 text-secondary">
+
+<p class="text-under-nav mb-0 d-none d-lg-block">Request a ride</p>
+<p class=" text-under-nav mb-0 d-none d-lg-block">Reserve a ride</p>
+<p class="text-under-nav mb-0 d-none d-lg-block">See prices</p>
+<p class="text-under-nav mb-0 d-none d-lg-block">Explore ride options</p>
+<p class="text-under-nav mb-0 d-none d-lg-block">Airport rides</p>
+    </div>
+    
+  </div>
+  
+</div>
+
+
+<!--Main heading-->
+
+<header class="heading-container container ">
+
+  <header class="row h-100">
+<!--Head text-->
+
+<div class="col-12 main-head-first-wrapper h-100 bg-white d-flex align-items-top pt-5 col-lg-6 ">
+
+    <div class="ps-3 main-box-content-div" tyle="margin-left: -70px; ">
+     <h1 class="fs-1 fw-bold main-head-text "> Request a ride for now or later</h1>
+
+     <div class="head-colum-1-box-2">
+     <img src="Icons/offer.png" class="offer-tag">
+     <p class="offer-text d-inline-block">Up to 50% off your first 5 Uber rides. T&Cs apply.* *Valid within 15 days of signup.</p>
+    </div>
+
+         <div class="text-input-wrapper position-relative d-block mb-3">
+      
+      <input type="text" class="rounded border ps-5 gray-background" placeholder="Pickup location">
+
+      <input type="text" class="rounded border ps-5 mt-2 gray-background" placeholder="Dropoff location">
+
+      <img class="travel-line-img" src="Icons/travel-line.png">
+      <img class="send-icon-img" src="Icons/send-icon.png">
+
+      </div>
+
+      <div class="date-time-wrapper d-flex">
+      
+      <input type="date" class="rounded border ps-5 me-4 pe-2 gray-background" placeholder="Date" style="appearance: none;">
+
+      <input type="time" class="rounded border ps-5 pe-2 gray-background" placeholder="Dropoff location">
+
+      </div>
+      
+    
+    </div>
+    
+
+    </div>
+
+    <!--head image-->
+
+        <div class=" col-6 h-100 d-flex  justify-content-center align-items-top mt-5 ">
+
+     <img class="head-image d-lg-block d-none" src="Icons/head-image.webp">
+
+    </div>
+
+
+  </header>
+</header>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

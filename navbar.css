@@ -1,0 +1,151 @@
+.internet-globe{
+  
+
+  width: 15px;
+}
+
+.three-line-img{
+
+  width:30px;
+  left:10px;
+}
+
+.language-button{
+
+  background-color: transparent;
+  
+}
+
+.language-selector{
+
+  outline: none;
+  flex:1;
+  height: 20px;
+  vertical-align: top;
+  margin-bottom: 4px;
+  
+  
+}
+
+.language-wrapper{
+
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  
+}
+
+.three-line-menu{
+
+  display: flex;
+  align-items: center;
+  margin-left:-15px;
+
+}
+
+.navigation-selector{
+
+appearance: none;
+width:50px;
+z-index:2;
+outline: none;margin-right: 0px;
+cursor: pointer;
+}
+
+
+.text-under-nav{
+
+    cursor: pointer;
+  font-size: 17px;
+}
+.text-under-nav:hover{
+ 
+  color: black;
+
+}
+
+.second-main-container{
+
+  height: 50px;
+}
+
+
+/*Third part*/
+
+.heading-container{
+
+  height: 500px;
+}
+
+.main-head-text{
+
+  width: 400px;
+
+}
+
+.head-image{
+
+  width:472px;
+  height: 342px;
+
+ 
+}
+
+.offer-text{
+
+  font-size:15px ;
+  width: 390px;
+  margin-left: 22px;
+  
+ 
+}
+
+.offer-tag{
+
+  width:15px;
+  height:15px;
+  position: absolute;
+  top:5px;
+  
+}
+
+.head-colum-1-box-2{
+
+  display:flex;
+  align-items: top;
+  position: relative;
+  margin-top: 30px;
+
+
+}
+
+.gray-background{
+
+  width: 100%;
+  height: 50px;
+  background-color: rgb(211, 211, 211);
+  color: rgb(0, 0, 0);
+  
+}
+
+.gray-background::placeholder{
+
+  color: rgb(99, 97, 97);
+}
+.travel-line-img{
+
+  width:40px;
+  position: absolute;
+  bottom:23px;
+  left:0px;
+
+}
+
+.send-icon-img{
+
+  width:23px;
+  position: absolute;
+  top:14px;
+  right:15px;
+  cursor: pointer;
+  
+}
